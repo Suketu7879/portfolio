@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  BiAnchor,
   BiCode,
   BiHome,
   BiInfoCircle,
@@ -13,22 +14,24 @@ const HeaderLeft = () => {
       {/* navbar for medium devices */}
       <div className="min-h-screen top-0 hidden md:sticky md:flex items-center justify-center bg-fuchsia-900 text-white rounded-r-3xl">
         <ul className="flex flex-col gap-10">
-          {["home", "about me", "projects", "contact"].map((item) => {
-            return (
-              <li
-                key={item}
-                className="flex items-center justify-start cursor-pointer font-medium transition-all duration-200 group sm:text-lg md:text-xl xl:text-3xl"
-              >
-                <BiRightArrowAlt className="text-4xl -translate-x-5 opacity-0 transform transition-all duration-200 group-hover:opacity-100 group-hover:translate-x-0 " />
-                <a
-                  href={`#${item}`}
-                  className="transition-all duration-200 hover:translate-x-3"
+          {["home", "about me", "technologies", "projects", "contact"].map(
+            (item) => {
+              return (
+                <li
+                  key={item}
+                  className="flex items-center justify-start cursor-pointer font-medium transition-all duration-200 group sm:text-lg md:text-xl xl:text-3xl"
                 >
-                  {item}
-                </a>
-              </li>
-            );
-          })}
+                  <BiRightArrowAlt className="text-4xl -translate-x-5 opacity-0 transform transition-all duration-200 group-hover:opacity-100 group-hover:translate-x-0 " />
+                  <a
+                    href={`#${item}`}
+                    className="transition-all duration-200 hover:translate-x-3"
+                  >
+                    {item}
+                  </a>
+                </li>
+              );
+            }
+          )}
         </ul>
       </div>
       {/* navbar for small devices */}
@@ -45,6 +48,13 @@ const HeaderLeft = () => {
         >
           <BiInfoCircle className="text-2xl" />
           <span className=" text-xs">About Me</span>
+        </a>
+        <a
+          href="#technologies"
+          className="flex flex-col items-center justify-center"
+        >
+          <BiAnchor className="text-2xl" />
+          <span className=" text-xs">Technologies</span>
         </a>
         <a
           href="#projects"
