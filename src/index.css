@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin  "daisyui";
+
+* {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
