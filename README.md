@@ -1,8 +1,16 @@
-# React + Vite
+# Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **fully responsive** portfolio website, built with **React, Tailwind CSS, and React Icons**, and deployed seamlessly on **Vercel**! 🎨⚡  
 
-Currently, two official plugins are available:
+## 🌟 Features  
+✅ **Responsive Design** – Works seamlessly across all devices.  
+✅ **Modern UI** – Styled with **Tailwind CSS** for a sleek look.  
+✅ **Interactive Elements** – Uses **React Icons** for enhanced visuals.  
+✅ **Fast & Optimized** – Deployed on **Vercel** for high performance.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo  
+[View Portfolio](https://portfolio-swart-two-66.vercel.app)  
+
+### 🏷️ Tech Stack  
+- **Frontend:** React, Tailwind CSS, React Icons  
+- **Deployment:** Vercel  
