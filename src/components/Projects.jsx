@@ -77,6 +77,15 @@ const Projects = () => {
             Express, MongoDB, and JWT, allowing users to authenticate, manage
             tasks, and enhance productivity.
           </p>
+          
+          <a
+            href="https://github.com/Suketu7879/task-manager"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-auto text-blue-500 hover:underline absolute bottom-3 left-3"
+          >
+            Source Code
+          </a>
         </div>
 
         {/* <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-fuchsia-500 rounded-lg hover:bg-fuchsia-200 group">
