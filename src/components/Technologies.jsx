@@ -8,7 +8,7 @@ const Technologies = () => {
     >
       <h1 className="text-center text-5xl font-light">Technologies</h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4  gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
         {/* <div className="flex justify-center items-center rounded-2xl border-4 border-fuchsia-400 py-4 px-7 md:px-16 lg:w-[200px] md:w-[150px] w-[100px] transition-all duration-600 hover:scale-110 hover:rotate-y-360 "> */}
         <div className="flex justify-center items-center rounded-2xl border-4 border-fuchsia-400 py-4 px-7 md:px-16 lg:w-[200px] md:w-[150px] w-[100px] transition-all duration-600 hover:scale-110 hover:rotate-y-360 ">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">

@@ -68,6 +68,17 @@ const Projects = () => {
           </p>
         </div>
 
+        <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-fuchsia-500 rounded-lg hover:bg-fuchsia-50 group">
+          <h1 className="text-3xl font-semibold transition-all group-hover:text-gray-600">
+            Task-Manager
+          </h1>
+          <p className="text-sm text-gray-600">
+            A secure and responsive task manager built with React, Node.js,
+            Express, MongoDB, and JWT, allowing users to authenticate, manage
+            tasks, and enhance productivity.
+          </p>
+        </div>
+
         {/* <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-fuchsia-500 rounded-lg hover:bg-fuchsia-200 group">
           <h1 className="text-3xl font-semibold transition-all group-hover:text-gray-900">
             Project Name
